@@ -17,7 +17,6 @@ This is the frontend codebase for the Seller Client.
 2. Run `npm install`
 3. Run `npm run dev`
 
-
 ## Contributing
 
 1. Fork the repository
@@ -25,12 +24,10 @@ This is the frontend codebase for the Seller Client.
 3. Make your changes and commit them
 4. Push to your fork and create a pull request
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 
-- [@Nitin](https://github.com/nitin6404)
-
+- [@Nitin](https://github.com/nitin6404) -[@Divyansh122]("https://github.com/divyansh122")

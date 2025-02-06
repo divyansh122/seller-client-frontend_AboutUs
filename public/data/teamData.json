@@ -1,0 +1,124 @@
+{
+  "founders": [
+    {
+      "name": "Alice Johnson",
+      "role": "Founder & CEO",
+      "image": "/profilephotos/avatar.png",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "github": "https://github.com/johndoe"
+    },
+    {
+      "name": "Bob Smith",
+      "role": "Co-Founder & CTO",
+      "image": "/profilephotos/avatar.png",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "github": "https://github.com/johndoe"
+    }
+  ],
+  "developmentTeam": {
+    "frontend": [
+      {
+        "name": "Divyansh Gupta",
+        "role": "Frontend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Liam Brown",
+        "role": "Frontend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Emma White",
+        "role": "Frontend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "James Wilson",
+        "role": "Frontend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Noah Davis",
+        "role": "Backend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Sophia Wilson",
+        "role": "Backend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Mason Moore",
+        "role": "Backend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Ava Taylor",
+        "role": "Backend Developer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      }
+    ],
+    "ui": [
+      {
+        "name": "Olivia Martinez",
+        "role": "UI/UX Designer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Ethan Taylor",
+        "role": "UI/UX Designer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Isabella Anderson",
+        "role": "UI/UX Designer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      },
+      {
+        "name": "Aiden Thomas",
+        "role": "UI/UX Designer",
+        "image": "/profilephotos/avatar.png",
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/johndoe"
+      }
+    ]
+  }
+}
