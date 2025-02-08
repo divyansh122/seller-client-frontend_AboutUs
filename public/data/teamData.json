@@ -1,20 +1,17 @@
 {
   "founders": [
     {
-      "name": "Alice Johnson",
-      "role": "Founder & CEO",
-      "image": "/profilephotos/avatar.png",
-      "linkedin": "https://linkedin.com/in/johndoe",
-      "twitter": "https://twitter.com/johndoe",
-      "github": "https://github.com/johndoe"
+      "name": "Akanksha Yadav",
+      "role": "Founder",
+      "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738934512/1737410286862_frxyc6.jpg",
+      "linkedin": "https://www.linkedin.com/in/akanksha-yadav-b385a9259/",
+      "bio": ""
     },
     {
-      "name": "Bob Smith",
-      "role": "Co-Founder & CTO",
-      "image": "/profilephotos/avatar.png",
-      "linkedin": "https://linkedin.com/in/johndoe",
-      "twitter": "https://twitter.com/johndoe",
-      "github": "https://github.com/johndoe"
+      "name": "Harpreet Singh",
+      "role": "Founder & CEO",
+      "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738934353/1738400403003_flfceb.jpg",
+      "linkedin": "https://www.linkedin.com/in/harpreet-singh-152296249/"
     }
   ],
   "developmentTeam": {
@@ -22,103 +19,106 @@
       {
         "name": "Divyansh Gupta",
         "role": "Frontend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/f_auto,q_auto/zprbinvkbsxoxqtshsey",
+        "linkedin": "https://www.linkedin.com/in/divyansh-gupta-3b57a1221/",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://github.com/divyansh122",
+        "bio": "I am Divyansh Gupta, a front-end developer specializing in React, Redux, and Tailwind CSS. I also have expertise in AWS services like Lambda, DynamoDB, and S3. Currently, I am interning as a web developer, passionate about building scalable web applications and exploring cloud computing innovations."
       },
       {
-        "name": "Liam Brown",
+        "name": "Nishtha Malhotra",
         "role": "Frontend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738909287/IMG_5235_-_Nishtha_Malhotra_c1ozek.jpg",
+        "linkedin": "www.linkedin.com/in/nishtha-malhotra-8a5152274",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://github.com/nishthamalhotr",
+        "bio": "I am a passionate Full Stack Developer skilled in creating dynamic and user-friendly web applications. With expertise in React.js, Node.js, and Python, I seamlessly integrate frontend and backend technologies to deliver robust solutions. From responsive design to scalable backend services and cloud deployments, I thrive on transforming ideas into impactful digital experiences."
       },
       {
-        "name": "Emma White",
-        "role": "Frontend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "name": "Rahul Chaudhary",
+        "role": "Full Stack Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738930283/IMG-20241212-WA0000_-_Rahul_Chaudhary_euwafu.jpg",
+        "linkedin": "https://www.linkedin.com/in/rahul-chaudhary-b31b2a297/",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://github.com/Rahulchaudharyji2",
+        "bio": "I am a Full Stack Web Developer"
       },
       {
-        "name": "James Wilson",
+        "name": "V Pratheek ",
         "role": "Frontend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738930585/IMG-20220217-WA0001_-_Pratheek_V_wjvtea.jpg",
+        "linkedin": "https://www.linkedin.com/in/v-pratheek",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://www.github.com/pratheekv39",
+        "bio": "A passionate software engineer"
+      },
+      {
+        "name": "Anand Kumar ",
+        "role": "Frontend Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738995769/Anandimage_-_Anand_Modanwal_zpemhb.jpg",
+        "linkedin": "linkedin.com/in/anand-kumar-modanval-52b919214",
+        "twitter": "https://twitter.com/johndoe",
+        "github": "https://github.com/Anandmod",
+        "bio": ""
       }
     ],
     "backend": [
       {
-        "name": "Noah Davis",
+        "name": "Aryan Bhutani",
         "role": "Backend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "/profilephotos/AryanBhutani.jpg",
+        "linkedin": "https://www.linkedin.com/in/aryan-bhutani-564121263",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://github.com/aryanbhutani26",
+        "bio": "I am a Computer Science and Engineering student with a strong foundation in full-stack development, cloud infrastructure, and AI engineering. Passionate about building scalable and efficient applications, I have contributed to open-source projects and developed systems with optimized performance. I am also keen on exploring AI-driven solutions and cybersecurity to create innovative and secure technologies."
       },
       {
-        "name": "Sophia Wilson",
+        "name": "Suraj Kumar ",
         "role": "Backend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "/profilephotos/Suraj Kumar.jpg",
+        "linkedin": "https://www.linkedin.com/in/suraj-kumar-46b43624b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
-      },
-      {
-        "name": "Mason Moore",
-        "role": "Backend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
-      },
-      {
-        "name": "Ava Taylor",
-        "role": "Backend Developer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://GitHub.com/gitsurajkr",
+        "bio": "Diving deep into the world of technology, where innovation and precision meet 🌐💡🔧"
       }
     ],
     "ui": [
       {
-        "name": "Olivia Martinez",
+        "name": "Garvit Arora",
         "role": "UI/UX Designer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738909810/me_-_Garvit_Arora_gjmu1t.jpg",
+        "linkedin": "https://www.linkedin.com/in/garvit-/",
         "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
-      },
-      {
-        "name": "Ethan Taylor",
-        "role": "UI/UX Designer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
-      },
-      {
-        "name": "Isabella Anderson",
-        "role": "UI/UX Designer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
-      },
-      {
-        "name": "Aiden Thomas",
-        "role": "UI/UX Designer",
-        "image": "/profilephotos/avatar.png",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/johndoe"
+        "github": "https://github.com/garvit-arora",
+        "bio": "First year undergrad who aspires to stand out from the crowd and make something innovative. Currently with knowledge of Frontend and UI/UX - I have participated in many hackathons and got selected in their Finales.  "
       }
     ]
-  }
+  },
+  "hrTeam": [
+    {
+      "name": "AYUSH KUMAR SINGH ",
+      "role": "HR",
+      "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738995937/image_7_-_AYUSH_SINGH_RAJPUT_deb6u1.jpg",
+      "bio": ""
+    }
+  ],
+  "marketingTeam": [
+    {
+      "name": "Emily Davis",
+      "role": "Marketing Lead",
+      "image": "/profilephotos/avatar.png",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "github": "https://github.com/johndoe",
+      "bio": "Emily Davis is the Marketing Lead at Seller. She specializes in digital marketing, brand strategy, and customer engagement. She has worked with top brands and is passionate about creating impactful marketing campaigns that drive growth."
+    },
+    {
+      "name": "Michael Scott",
+      "role": "Social Media Manager",
+      "image": "/profilephotos/avatar.png",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "github": "https://github.com/johndoe"
+    }
+  ]
 }
