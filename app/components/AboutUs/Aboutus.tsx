@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image"; // Add this import
 import { AiOutlineTeam } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { X, Users, Megaphone } from "lucide-react"; // Added Users and Megaphone icons
+import { X, Users, Megaphone } from "lucide-react";
 import AboutUs1 from "./Aboutus1";
 
 interface TeamMember {
@@ -47,11 +48,12 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ member, onClose }) => {
 
         <div className="p-8">
           <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-            <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0">
-              <img
+            <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 relative">
+              <Image
                 src={member.image}
                 alt={member.name}
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
 
@@ -102,6 +104,13 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ member, onClose }) => {
     </div>
   );
 };
+
+// Replace 'any' with specific icon component type
+interface TeamSectionProps {
+  title: string;
+  icon: React.ComponentType<{ className?: string }>;
+  members: TeamMember[];
+}
 
 export default function AboutUs() {
   const [teamData, setTeamData] = useState<TeamData | null>(null);
@@ -157,15 +166,7 @@ export default function AboutUs() {
     setSelectedMember(member);
   };
 
-  const TeamSection = ({
-    title,
-    icon: Icon,
-    members,
-  }: {
-    title: string;
-    icon: any;
-    members: TeamMember[];
-  }) => (
+  const TeamSection = ({ title, icon: Icon, members }: TeamSectionProps) => (
     <div className="mb-20">
       <div className="flex items-center justify-center mb-8">
         <Icon className="w-6 h-6 text-blue-600 mr-2" />
@@ -181,10 +182,12 @@ export default function AboutUs() {
             >
               <div className="p-6 text-center">
                 <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                  <img
+                  <Image
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    width={128}
+                    height={128}
+                    className="object-cover"
                   />
                 </div>
                 <h3 className="font-semibold text-lg text-gray-900">
@@ -236,27 +239,18 @@ export default function AboutUs() {
             </p>
           </div>
 
-          {/* Founders Section */}
-          {/*<TeamSection
-            title="Founder & Co-founder"
-            icon={FaBriefcase}
-            members={teamData.founders}
-          />*/}
-
-          {/* HR Section */}
           <TeamSection
             title="Human Resources"
             icon={Users}
             members={teamData.hrTeam}
           />
 
-          {/* Marketing Section */}
           <TeamSection
             title="Marketing Team"
             icon={Megaphone}
             members={teamData.marketingTeam}
           />
-          {/* Team Members Section */}
+
           <div>
             <div className="flex items-center justify-center mb-8">
               <AiOutlineTeam className="w-6 h-6 text-blue-600 mr-2" />
@@ -265,7 +259,6 @@ export default function AboutUs() {
               </h2>
             </div>
 
-            {/* Sliding Filter Buttons */}
             <div className="flex justify-center mb-12">
               <div className="bg-gray-100 p-1 rounded-full flex space-x-1">
                 {["all", "frontend", "backend", "ui"].map((dept) => (
@@ -286,7 +279,6 @@ export default function AboutUs() {
               </div>
             </div>
 
-            {/* Team Members Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
               {getFilteredMembers().map((member) => (
                 <div
@@ -296,10 +288,12 @@ export default function AboutUs() {
                 >
                   <div className="p-6 text-center">
                     <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                      <img
+                      <Image
                         src={member.image}
                         alt={member.name}
-                        className="w-full h-full object-cover"
+                        width={128}
+                        height={128}
+                        className="object-cover"
                       />
                     </div>
                     <h3 className="font-semibold text-lg text-gray-900">
@@ -307,7 +301,6 @@ export default function AboutUs() {
                     </h3>
                     <p className="text-blue-600 mt-1">{member.role}</p>
 
-                    {/* Social Media Links */}
                     <div className="mt-4 flex justify-center space-x-4">
                       {member.linkedin && (
                         <a
@@ -338,7 +331,6 @@ export default function AboutUs() {
           </div>
         </div>
 
-        {/* Profile Modal */}
         {selectedMember && (
           <ProfileModal
             member={selectedMember}
