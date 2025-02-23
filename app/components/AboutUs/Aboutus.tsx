@@ -39,6 +39,7 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ member, onClose }) => {
       <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
         <button
           onClick={onClose}
+          title="Close"
           className="absolute right-4 top-4 text-gray-500 hover:text-gray-700 transition-colors"
         >
           <X className="w-6 h-6" />
@@ -236,11 +237,11 @@ export default function AboutUs() {
           </div>
 
           {/* Founders Section */}
-          <TeamSection
+          {/*<TeamSection
             title="Founder & Co-founder"
             icon={FaBriefcase}
             members={teamData.founders}
-          />
+          />*/}
 
           {/* HR Section */}
           <TeamSection
@@ -255,7 +256,6 @@ export default function AboutUs() {
             icon={Megaphone}
             members={teamData.marketingTeam}
           />
-
           {/* Team Members Section */}
           <div>
             <div className="flex items-center justify-center mb-8">
