@@ -25,15 +25,7 @@
         "github": "https://github.com/divyansh122",
         "bio": "I am Divyansh Gupta, a front-end developer specializing in React, Redux, and Tailwind CSS. I also have expertise in AWS services like Lambda, DynamoDB, and S3. Currently, I am interning as a web developer, passionate about building scalable web applications and exploring cloud computing innovations."
       },
-      {
-        "name": "Nishtha Malhotra",
-        "role": "Frontend Developer",
-        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738909287/IMG_5235_-_Nishtha_Malhotra_c1ozek.jpg",
-        "linkedin": "www.linkedin.com/in/nishtha-malhotra-8a5152274",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://github.com/nishthamalhotr",
-        "bio": "I am a passionate Full Stack Developer skilled in creating dynamic and user-friendly web applications. With expertise in React.js, Node.js, and Python, I seamlessly integrate frontend and backend technologies to deliver robust solutions. From responsive design to scalable backend services and cloud deployments, I thrive on transforming ideas into impactful digital experiences."
-      },
+
       {
         "name": "Rahul Chaudhary",
         "role": "Full Stack Developer",
@@ -43,15 +35,7 @@
         "github": "https://github.com/Rahulchaudharyji2",
         "bio": "I am a Full Stack Web Developer"
       },
-      {
-        "name": "V Pratheek ",
-        "role": "Frontend Developer",
-        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738930585/IMG-20220217-WA0001_-_Pratheek_V_wjvtea.jpg",
-        "linkedin": "https://www.linkedin.com/in/v-pratheek",
-        "twitter": "https://twitter.com/johndoe",
-        "github": "https://www.github.com/pratheekv39",
-        "bio": "A passionate software engineer"
-      },
+
       {
         "name": "Anand Kumar ",
         "role": "Frontend Developer",
@@ -73,6 +57,14 @@
         "bio": "I am a Computer Science and Engineering student with a strong foundation in full-stack development, cloud infrastructure, and AI engineering. Passionate about building scalable and efficient applications, I have contributed to open-source projects and developed systems with optimized performance. I am also keen on exploring AI-driven solutions and cybersecurity to create innovative and secure technologies."
       },
       {
+        "name": "Nitin Chaudhary",
+        "role": "Backend Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1740328845/image_-_Nitin_Chaudhary_xys4na.jpg",
+        "linkedin": "https://www.linkedin.com/in/Nitin6404 ",
+        "github": "https://github.com/Nitin6404 ",
+        "bio": ""
+      },
+      {
         "name": "Suraj Kumar ",
         "role": "Backend Developer",
         "image": "/profilephotos/Suraj Kumar.jpg",
@@ -91,6 +83,15 @@
         "twitter": "https://twitter.com/johndoe",
         "github": "https://github.com/garvit-arora",
         "bio": "First year undergrad who aspires to stand out from the crowd and make something innovative. Currently with knowledge of Frontend and UI/UX - I have participated in many hackathons and got selected in their Finales.  "
+      },
+      {
+        "name": "Aadarsh Pandey",
+        "role": "UI/UX Designer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1740329111/Adarsh_Pandey_photo_-_Adarsh_Pandey_l55tij.jpg",
+        "linkedin": "https://www.linkedin.com/in/adarsh-pandey-connect",
+
+        "github": "https://github.com/beadarshh",
+        "bio": " "
       }
     ]
   },

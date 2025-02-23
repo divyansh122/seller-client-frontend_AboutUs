@@ -340,10 +340,12 @@ export default function Home() {
             Connecting consumers with trusted neighborhood vendors for an
             effortless shopping experience.
           </p>
-          <button className="inline-flex items-center gap-2 text-black px-8 py-4 rounded-lg border-4 border-black transition-all hover:scale-105">
-            Shop Now
-            <ArrowRight className="w-5 h-5" />
-          </button>
+          <a href="https://buyer-user-frontend2.vercel.app/men">
+            <button className="inline-flex items-center gap-2 text-black px-8 py-4 rounded-lg border-4 border-black transition-all hover:scale-105">
+              Shop Now
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </a>
         </div>
 
         {/* Scroll Down Button */}
