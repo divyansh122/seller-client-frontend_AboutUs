@@ -422,13 +422,13 @@ export default function Home() {
           <div className="space-y-6 order-1 lg:order-2" ref={secondTextRef}>
             <h2 className="text-3xl font-bold nunito">Why Choose Us?</h2>
             <ul className="text-lg text-muted-foreground custom-para1 list-disc pl-5">
-              <li>Convenience – Shop from the comfort of your home.</li>
+              <li>Convenience Shop from the comfort of your home.</li>
               <li>
-                Confidence – Make informed choices with virtual fitting and
+                Confidence Make informed choices with virtual fitting and
                 recommendations.
               </li>
               <li>
-                Community Support – Strengthen local businesses and promote
+                Community Support Strengthen local businesses and promote
                 sustainability.
               </li>
             </ul>
