@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineTeam } from "react-icons/ai";
 import { FaBriefcase, FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { X, Users, Megaphone } from "lucide-react"; // Added Users and Megaphone icons
 import AboutUs1 from "./Aboutus1";
 
