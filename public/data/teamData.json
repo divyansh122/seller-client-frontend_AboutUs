@@ -40,7 +40,7 @@
         "name": "Anand Kumar ",
         "role": "Frontend Developer",
         "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1738995769/Anandimage_-_Anand_Modanwal_zpemhb.jpg",
-        "linkedin": "linkedin.com/in/anand-kumar-modanval-52b919214",
+        "linkedin": "https://www.linkedin.com/in/anand-kumar-modanval-52b919214/",
         "twitter": "https://twitter.com/johndoe",
         "github": "https://github.com/Anandmod",
         "bio": ""
@@ -84,7 +84,7 @@
         "name": "Gautam Aggarwal",
         "role": "Backend Developer",
         "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1740417525/3_-_gautam_ul6jxe.jpg",
-        "linkedin": "www.linkedin.com/in/gautam-aggarwal-",
+        "linkedin": "https://www.linkedin.com/in/gautam-aggarwal/",
         "github": "https://github.com/Nitin6404 ",
         "bio": "Web & Software Developer | MERN Stack | Java & Advanced DSA | Frontend & Backend Development | Dynamic Programming Enthusiast. Passionate about building scalable web applications and solving complex algorithmic problems. Proficient in Java, React, Node.js, and MongoDB, with a strong grasp of data structures and algorithms. Always eager to learn, innovate, and collaborate on exciting tech projects"
       },
