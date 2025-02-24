@@ -81,6 +81,14 @@
         "bio": ""
       },
       {
+        "name": "Gautam Aggarwal",
+        "role": "Backend Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1740417525/3_-_gautam_ul6jxe.jpg",
+        "linkedin": "www.linkedin.com/in/gautam-aggarwal-",
+        "github": "https://github.com/Nitin6404 ",
+        "bio": "Web & Software Developer | MERN Stack | Java & Advanced DSA | Frontend & Backend Development | Dynamic Programming Enthusiast. Passionate about building scalable web applications and solving complex algorithmic problems. Proficient in Java, React, Node.js, and MongoDB, with a strong grasp of data structures and algorithms. Always eager to learn, innovate, and collaborate on exciting tech projects"
+      },
+      {
         "name": "Suraj Kumar ",
         "role": "Backend Developer",
         "image": "/profilephotos/Suraj Kumar.jpg",

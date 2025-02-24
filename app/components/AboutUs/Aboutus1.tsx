@@ -319,7 +319,7 @@ export default function Home() {
             Revolutionizing Local Shopping with{" "}
             <span
               ref={textRef}
-              className="text-[#FF4545] leading-none tracking-tight"
+              className="text-[#204865] leading-none tracking-tight"
             >
               {phrases[0]}
             </span>
@@ -390,7 +390,7 @@ export default function Home() {
             ref={rightFadeRef}
           >
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
+              src="https://res.cloudinary.com/dglhqhjqu/image/upload/v1740418289/clark-street-mercantile-P3pI6xzovu0-unsplash_y66w6e.jpg"
               alt="Shopping Experience"
               className="w-full h-full object-cover"
             />
@@ -404,7 +404,7 @@ export default function Home() {
             ref={secondImageRef}
           >
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
+              src="https://res.cloudinary.com/dglhqhjqu/image/upload/v1740418289/clark-street-mercantile-P3pI6xzovu0-unsplash_y66w6e.jpg"
               alt="Sustainable Fashion"
               className="w-full h-full object-cover"
             />
