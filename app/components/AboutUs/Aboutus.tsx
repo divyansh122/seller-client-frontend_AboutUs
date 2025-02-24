@@ -9,7 +9,7 @@ interface TeamMember {
   name: string;
   role: string;
   image: string;
-  department?: "frontend" | "backend" | "ui" | "hr" | "marketing";
+  department?: "frontend" | "backend" | "UI" | "hr" | "marketing";
   linkedin?: string;
   twitter?: string;
   github?: string;
@@ -23,11 +23,11 @@ interface TeamData {
   developmentTeam: {
     frontend: TeamMember[];
     backend: TeamMember[];
-    ui: TeamMember[];
+    UI: TeamMember[];
   };
 }
 
-type Department = "all" | "frontend" | "backend" | "ui";
+type Department = "all" | "frontend" | "backend" | "UI";
 
 interface ProfileModalProps {
   member: TeamMember;
@@ -151,7 +151,7 @@ export default function AboutUs() {
     return [
       ...teamData.developmentTeam.frontend,
       ...teamData.developmentTeam.backend,
-      ...teamData.developmentTeam.ui,
+      ...teamData.developmentTeam.UI,
     ];
   };
 
@@ -261,7 +261,7 @@ export default function AboutUs() {
 
             <div className="flex justify-center mb-12">
               <div className="bg-gray-100 p-1 rounded-full flex space-x-1">
-                {["all", "frontend", "backend", "ui"].map((dept) => (
+                {["all", "frontend", "backend", "UI"].map((dept) => (
                   <button
                     type="button"
                     key={dept}

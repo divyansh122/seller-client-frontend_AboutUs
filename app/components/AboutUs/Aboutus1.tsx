@@ -36,11 +36,10 @@ export default function Home() {
     "Personalized Picks",
     "Effortless Discovery",
     "Local Shopping",
-    "Community Driven",
     "Curated Collections",
     "Sustainable Fashion",
     "Small Business Growth",
-    "Eco-Friendly.",
+    "Eco-Friendly Clothing.",
   ];
   let phraseIndex = 0;
 
@@ -315,7 +314,7 @@ export default function Home() {
         className="relative min-h-screen flex items-center justify-center"
       >
         <div className="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 poppins tracking-wider linespacing">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 poppins tracking-wider linespacing  text-gray-600">
             Revolutionizing Local Shopping with{" "}
             <span
               ref={textRef}
@@ -404,7 +403,7 @@ export default function Home() {
             ref={secondImageRef}
           >
             <img
-              src="https://res.cloudinary.com/dglhqhjqu/image/upload/v1740418289/clark-street-mercantile-P3pI6xzovu0-unsplash_y66w6e.jpg"
+              src="https://res.cloudinary.com/dglhqhjqu/image/upload/v1740418859/amanda-vick-ohWf6YuzOQk-unsplash_veybhz.jpg"
               alt="Sustainable Fashion"
               className="w-full h-full object-cover"
             />
