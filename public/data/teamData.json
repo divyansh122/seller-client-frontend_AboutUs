@@ -44,6 +44,22 @@
         "twitter": "https://twitter.com/johndoe",
         "github": "https://github.com/Anandmod",
         "bio": ""
+      },
+      {
+        "name": "Ajay Kumar ",
+        "role": "Frontend Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/t_Banner 9:16/v1740392557/IMG20230304124211-1_-_Ajay_Kumar_ep8yhn.jpg",
+        "linkedin": "https://www.linkedin.com/in/ajay-kumar-200203260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Ajay1628Kumar",
+        "bio": "I'm a front-end developer with over two years of experience in building responsive and user-friendly web applications. I specialize in HTML, CSS, JavaScript, ReactJS, and modern frameworks like Next.js and Tailwind CSS. Passionate about UI/UX design, I love creating seamless digital experiences."
+      },
+      {
+        "name": "Sarthak Anil Janrao  ",
+        "role": "Frontend Developer",
+        "image": "https://res.cloudinary.com/dglhqhjqu/image/upload/v1740392701/IMG-20241010-WA0093_-_Sarthak_Janrao_lbyxi1.jpg",
+        "linkedin": "https://www.linkedin.com/in/sarthak-janrao/",
+        "github": "https://github.com/Sarthakjanrao07",
+        "bio": "Developed responsive and interactive UIs using HTML, CSS, JavaScript, and React.js.Translated Figma designs into web pages with optimized performance.Ensured cross-browser compatibility and mobile responsiveness.Collaborated with designers and backend developers to deliver high-quality web solutions."
       }
     ],
     "backend": [

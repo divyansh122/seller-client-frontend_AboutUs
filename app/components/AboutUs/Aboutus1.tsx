@@ -250,13 +250,7 @@ export default function Home() {
         <div
           ref={centerPyramidRef}
           className="absolute left-1/3 top-1/2 w-20 lg:w-32"
-        >
-          <img
-            src="/shapes/frok.png"
-            alt="Pyramid"
-            className="w-full h-full object-cover opacity-50"
-          />
-        </div>
+        ></div>
         <div
           ref={midRightStarRef}
           className="absolute right-1/4 top-1/3 w-16 lg:w-24"
@@ -270,13 +264,7 @@ export default function Home() {
         <div
           ref={midLeftHexagonRef}
           className="absolute left-1/4 top-2/3 w-24 lg:w-36"
-        >
-          <img
-            src="/shapes/swe.png"
-            alt="Hexagon"
-            className="w-full h-full object-cover opacity-30"
-          />
-        </div>
+        ></div>
 
         {/* Bottom section shapes */}
         <div
@@ -402,7 +390,7 @@ export default function Home() {
             ref={rightFadeRef}
           >
             <img
-              src="/homeimage.png"
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
               alt="Shopping Experience"
               className="w-full h-full object-cover"
             />
