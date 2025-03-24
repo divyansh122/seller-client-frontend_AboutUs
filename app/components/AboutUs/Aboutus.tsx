@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image"; // Add this import
 import { AiOutlineTeam } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { X, Users, Megaphone } from "lucide-react";
+import { X, Users } from "lucide-react";
 import AboutUs1 from "./Aboutus1";
-
+F
 interface TeamMember {
   name: string;
   role: string;
