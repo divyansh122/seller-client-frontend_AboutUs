@@ -245,11 +245,11 @@ export default function AboutUs() {
             members={teamData.hrTeam}
           />
 
-          <TeamSection
+{/*           <TeamSection
             title="Marketing Team"
             icon={Megaphone}
             members={teamData.marketingTeam}
-          />
+          /> */}
 
           <div>
             <div className="flex items-center justify-center mb-8">
